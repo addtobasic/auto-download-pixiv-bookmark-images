@@ -13,6 +13,7 @@ pixivのブックマーク画像を全部ダウンロードしてくるやつ
 $ git clone https://github.com/Genshi0916/auto-download-pixiv-bookmark-images.git
 $ cd auto-download-pixiv-bookmark-images
 $ pip3 install selenium
+$ pip3 install pixivpy
 ```
 
 ## Get Refresh Token
