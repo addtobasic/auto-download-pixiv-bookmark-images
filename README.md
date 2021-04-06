@@ -27,7 +27,6 @@ $ ls #README.md chromedriver pixiv_auth.py
 $ python3 pixiv_auth.py login
 ```
 実行するとログインページが出てくるのでダウンロードしたいブックマークの画像があるアカウントでログインします
-![](images/loginPage.png "ログインページのサンプル画像")
 
 ログインするとターミナルにaccess_tokenとrefresh_tokenが表示されます
 
@@ -57,7 +56,7 @@ $ python3 download.py
 
 windows10は大丈夫でした。Mac OSは持っていないのでわかりません。
 
-ubuntuで実行した場合、ダウンロードした画像をUSBメモリなどでwindowsに移動したり別の画像ビューアーを使ったりしていい感じにしてください。
+ubuntuで実行した場合、別の画像ビューアーを使ったりしていい感じにしてください(gThumbなら闇込めました)。
 
 # References
 * https://github.com/upbit/pixivpy
