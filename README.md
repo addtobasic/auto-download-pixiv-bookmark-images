@@ -9,6 +9,7 @@ Qiitaを書きましただいたい[これ](https://qiita.com/genshi0916/items/e
 # Requirement
 * python3
 * pip3
+* python3-venv
 
 # Setup
 ```bash
