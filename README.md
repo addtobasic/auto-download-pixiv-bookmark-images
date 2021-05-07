@@ -4,6 +4,8 @@ pixivのブックマーク画像を全部ダウンロードしてくるやつ
 
 注意：pixivpyは公式のAPIではないのでどうなっても知らないです。誰も責任はとりません。ご了承ください。
 
+Qiitaを書きましただいたい[これ](https://qiita.com/genshi0916/items/e17d0a5c7fd226714f3c)に書いています
+
 # Requirement
 * python3
 * pip3
@@ -12,8 +14,9 @@ pixivのブックマーク画像を全部ダウンロードしてくるやつ
 ```bash
 $ git clone https://github.com/Genshi0916/auto-download-pixiv-bookmark-images.git
 $ cd auto-download-pixiv-bookmark-images
-$ pip3 install selenium
-$ pip3 install pixivpy
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ (venv) pip install -r requirements.txt
 ```
 
 ## Get Refresh Token
@@ -56,7 +59,7 @@ $ python3 download.py
 
 windows10は大丈夫でした。Mac OSは持っていないのでわかりません。
 
-ubuntuで実行した場合、別の画像ビューアーを使ったりしていい感じにしてください(gThumbなら闇込めました)。
+ubuntuで実行した場合、別の画像ビューアーを使ったりしていい感じにしてください(gThumbなら読み込めました)。
 
 # References
 * https://github.com/upbit/pixivpy
