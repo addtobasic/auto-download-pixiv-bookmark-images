@@ -4,7 +4,7 @@ pixivのブックマーク画像を全部ダウンロードしてくるやつ
 
 注意：pixivpyは公式のAPIではないのでどうなっても知らないです。誰も責任はとりません。ご了承ください。
 
-Qiitaを書きましただいたい[これ](https://qiita.com/genshi0916/items/e17d0a5c7fd226714f3c)に書いています
+Qiitaを書きましただいたい[これ](https://qiita.com/addtobasic/items/e17d0a5c7fd226714f3c)に書いています
 
 # Requirement
 * python3
@@ -13,7 +13,7 @@ Qiitaを書きましただいたい[これ](https://qiita.com/genshi0916/items/e
 
 # Setup
 ```bash
-$ git clone https://github.com/Genshi0916/auto-download-pixiv-bookmark-images.git
+$ git clone https://github.com/addtobasic/auto-download-pixiv-bookmark-images.git
 $ cd auto-download-pixiv-bookmark-images
 $ python3 -m venv venv
 $ source venv/bin/activate
