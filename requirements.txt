@@ -1,10 +1,14 @@
 certifi==2020.12.5
 chardet==4.0.0
 cloudscraper==1.2.48
+gppt==1.6
 idna==2.10
 PixivPy==3.5.11
 pyparsing==2.4.7
 requests==2.25.1
 requests-toolbelt==0.9.1
 selenium==3.141.0
+stdiomask==0.0.6
+types-requests==2.26.0
+types-selenium==3.141.3
 urllib3==1.26.4
